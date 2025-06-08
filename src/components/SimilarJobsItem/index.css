@@ -1,0 +1,137 @@
+.similar-jobs-bg-container {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 12px;
+  margin-right: 28px;
+  margin-bottom: 28px;
+  width: 350px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+}
+
+.title-and-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.job-title-similar-jobs {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.job-rating {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.star-icon {
+  color: #fbbf24;
+}
+
+.location-and-jobtype-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.description-heading-similar-jobs {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.similar-job-description {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.location-and-jobtype-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  margin: 0px;
+  margin-right: 14px;
+}
+
+.necessary-icons {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+@media screen and (max-width: 991px) {
+  .similar-jobs-bg-container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .similar-jobs-bg-container {
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .logo-and-title-container {
+    margin-bottom: 8px;
+  }
+
+  .company-logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 14px;
+  }
+
+  .job-title-similar-jobs {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .job-rating {
+    font-size: 16px;
+  }
+
+  .description-heading-similar-jobs {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .similar-job-description {
+    font-size: 14px;
+  }
+
+  .location-and-jobtype-text {
+    font-size: 14px;
+    margin-right: 12px;
+  }
+
+  .necessary-icons {
+    font-size: 18px;
+  }
+}

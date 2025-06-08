@@ -1,0 +1,158 @@
+.job-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #272727;
+  padding: 24px;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+}
+
+.logo-and-title-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.title-and-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.job-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.job-rating {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.star-icon {
+  color: #fbbf24;
+}
+
+.location-type-and-package {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.location-and-jobtype-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.location-and-jobtype-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  margin: 0px;
+  margin-right: 14px;
+}
+
+.necessary-icons {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+.package-per-annum {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.horizontal-line-job-item {
+  border: 1px solid #b6c5ff;
+  width: 100%;
+}
+
+.description-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 4px 0px;
+}
+
+.job-description-paragraph {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .job-item-container {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+
+  .logo-and-title-container {
+    margin-bottom: 6px;
+  }
+
+  .company-logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 14px;
+  }
+
+  .job-title {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .job-rating {
+    font-size: 16px;
+  }
+
+  .location-and-jobtype-text {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+
+  .necessary-icons {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+  .package-per-annum {
+    font-size: 16px;
+  }
+
+  .description-text {
+    font-size: 18px;
+    margin: 2px 0px;
+  }
+
+  .job-description-paragraph {
+    font-size: 12px;
+  }
+}

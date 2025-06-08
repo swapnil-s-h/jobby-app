@@ -1,0 +1,16 @@
+.salary-range-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.salary-range-label {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.salary-range-input-element {
+  margin-right: 12px;
+}

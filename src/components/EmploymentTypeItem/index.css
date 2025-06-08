@@ -1,0 +1,16 @@
+.employment-type-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.employment-type-label {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.employment-type-input-element {
+  margin-right: 12px;
+}
